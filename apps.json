@@ -1,0 +1,38 @@
+{
+  "name": "Nemu",
+  "identifier": "com.example.mangapp.source",
+  "subtitle": "Bibliothèque et lecteur de mangas",
+  "iconURL": "https://raw.githubusercontent.com/KenDishopp/nemu-source/main/icon.png",
+  "tintColor": "#8B7CF6",
+  "apps": [
+    {
+      "name": "Nemu",
+      "bundleIdentifier": "com.appnemu.app",
+      "developerName": "Nemu",
+      "subtitle": "Bibliothèque et lecteur de mangas",
+      "localizedDescription": "Lis, suis et range tes mangas, manhwas et comics.",
+      "iconURL": "https://raw.githubusercontent.com/KenDishopp/nemu-source/main/icon.png",
+      "tintColor": "#8B7CF6",
+      "screenshots": [],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "buildVersion": "3",
+          "date": "2026-10-17T23:51:25Z",
+          "localizedDescription": "Fabrication 3.\n\n• Ton profil devient le 4e onglet, avec deux volets : Vitrine et Amis.\n• Les réglages en une touche : le bouton rond à côté des onglets.\n• Les tomes et chapitres s'affichent en court : « Tome 1 », « Chapitre 12 ».\n• Explorer : toucher ailleurs ou faire défiler range le clavier.\n• Fin de téléchargement : « Le chapitre 1 est sur l'appareil ».",
+          "downloadURL": "https://raw.githubusercontent.com/KenDishopp/nemu-source/main/Nemu.ipa",
+          "size": 14240326,
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSPhotoLibraryUsageDescription": "Nemu ouvre tes photos pour que tu choisisses ta photo de profil et ta bannière.",
+          "NSPhotoLibraryAddUsageDescription": "Nemu enregistre dans tes photos les pages que tu choisis de garder."
+        }
+      }
+    }
+  ],
+  "news": []
+}
