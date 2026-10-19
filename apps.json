@@ -1,0 +1,38 @@
+{
+  "name": "Nemu",
+  "identifier": "com.example.mangapp.source",
+  "subtitle": "Bibliothèque et lecteur de mangas",
+  "iconURL": "https://raw.githubusercontent.com/KenDishopp/nemu-source/main/icon.png",
+  "tintColor": "#8B7CF6",
+  "apps": [
+    {
+      "name": "Nemu",
+      "bundleIdentifier": "com.appnemu.app",
+      "developerName": "Nemu",
+      "subtitle": "Bibliothèque et lecteur de mangas",
+      "localizedDescription": "Lis, suis et range tes mangas, manhwas et comics.",
+      "iconURL": "https://raw.githubusercontent.com/KenDishopp/nemu-source/main/icon.png",
+      "tintColor": "#8B7CF6",
+      "screenshots": [],
+      "versions": [
+        {
+          "version": "1.0.0",
+          "buildVersion": "10",
+          "date": "2026-10-19T18:07:10Z",
+          "localizedDescription": "Fabrication 10.\n\n• Bibliothèque : une œuvre dont le tome est débloqué peut s'afficher en tome 3D au lieu de sa couverture. Le choix se fait œuvre par œuvre (appui long sur l'œuvre).\n• Fiche d'une œuvre : le tome 3D débloqué remplace la couverture, on le fait tourner au doigt ; « Couverture / Tome 3D » sous l'image.\n• Corrigé : le tome en vedette de « Mes récompenses » n'est plus écrasé.\n• Équipe : on peut offrir la version Mythique d'un tome, et plusieurs raretés d'un coup.",
+          "downloadURL": "https://raw.githubusercontent.com/KenDishopp/nemu-source/main/Nemu.ipa",
+          "size": 14353535,
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSPhotoLibraryUsageDescription": "Nemu ouvre tes photos pour que tu choisisses ta photo de profil et ta bannière.",
+          "NSPhotoLibraryAddUsageDescription": "Nemu enregistre dans tes photos les pages que tu choisis de garder."
+        }
+      }
+    }
+  ],
+  "news": []
+}
